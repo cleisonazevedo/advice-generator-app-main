@@ -23,7 +23,7 @@ const AdviceCard = () => {
             </Title>
             <Description>
                 { dataAdvice?.slip ? 
-                  dataAdvice?.slip.advice :
+                  `“${dataAdvice?.slip.advice}”` :
                   <img src={'./images/loading-gif.gif'}/>
                 }
                 
